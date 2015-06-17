@@ -1,0 +1,29 @@
+{% unless site.related_posts and page.tags %}
+<div class="text-right">
+	<a href="/">
+		<img style="opacity:0.9" alt="Me" title="Hello world!" height="100px" src="//www.gravatar.com/avatar/3e7bc64a5aede02c493a6ed5b0ceb33e?s=200"></img>
+	</a>
+</div>
+{% endunless %}
+
+{% if site.related_posts %}
+<div class="posts related-posts">
+	<h3>Related Posts</h3>
+	<ul class="list-unstyled">
+	{% for rel_post in site.related_posts %}
+		<li><code>{{ rel_post.date | date:'%Y-%m-%d' }}</code>&mdash; <a href="{{ rel_post.url }}">{{ rel_post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}
+
+{% if page.tags %}
+<div class="posts tag-posts">
+	<h3>Tags</h3>
+	<ul class="list-inline">
+	{% for tag in page.tags %}
+		<li><a href="/tags.html#{{ tag }}-ref">#{{ tag }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}

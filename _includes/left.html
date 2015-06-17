@@ -1,0 +1,10 @@
+{% if page.url != "/posts.html" %}
+<div class="posts recent-posts">
+	<h3>Recent Posts</h3>
+	<ul class="list-unstyled">
+	{% for post in site.posts | limit:10 %}
+		<li><code>{{ post.date | date:'%Y-%m-%d' }}</code>&mdash; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}

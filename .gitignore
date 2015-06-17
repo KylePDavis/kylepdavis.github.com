@@ -1,0 +1,11 @@
+# misc files
+*.swp
+.DS_Store
+
+# IDE files
+.c9/
+
+# build
+_site/
+Gemfile.lock
+
