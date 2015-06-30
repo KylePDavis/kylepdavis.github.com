@@ -1,5 +1,5 @@
 ---
-tags: health fixed movie anime electron javascript babeljs ternjs jshint jscs eslint mongodb resumes
+tags: health fixed movie anime electron javascript babeljs ternjs jshint jscs eslint mongodb work resume
 ---
 
 
@@ -21,7 +21,7 @@ tags: health fixed movie anime electron javascript babeljs ternjs jshint jscs es
     - on GitHub finally
     - needs work, but it's a start
     - might rename to `MongoUI`
-- `resumes` - my resume in the open and in various open formats
+- `resume` - my resume in the open and in various open formats
     - want to research these:
         - [gitbook](https://github.com/GitbookIO/gitbook)
         - [Bookdown](https://github.com/bookdown/Bookdown.Bookdown)
