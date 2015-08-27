@@ -36,15 +36,17 @@
 		{% include header.html %}
 	</div>
 
-	<div class="content">
-		<div class="col-md-3">
-			{% include left.html %}
-		</div>
-		<div class="col-md-6">
-			{{ content }}
-		</div>
-		<div class="col-md-3">
-			{% include right.html %}
+	<div class="content container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-md-3">
+				{% include left.html %}
+			</div>
+			<div class="col-xs-12 col-md-6">
+				{{ content }}
+			</div>
+			<div class="col-xs-12 col-md-3">
+				{% include right.html %}
+			</div>
 		</div>
 	</div>
 
