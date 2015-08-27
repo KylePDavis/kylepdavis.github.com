@@ -1,4 +1,10 @@
+/* Customize code blocks used for dates in posts list */
 .posts li > code {
     color: black;
     background: none;
+}
+
+/* Customize tap highlight on iOS */
+html {
+  -webkit-tap-highlight-color: rgba(0,64,32,0.1);
 }
