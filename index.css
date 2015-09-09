@@ -8,3 +8,9 @@
 html {
   -webkit-tap-highlight-color: rgba(0,64,32,0.1);
 }
+
+@media (max-width: 767px) {
+	.navbar .nav.navbar-right {
+		margin-top: -5em;
+	}
+}
