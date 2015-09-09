@@ -37,3 +37,10 @@ tags: school work family friends vacation
 	- tonight: concert to see [Gemini Syndrome](https://en.wikipedia.org/wiki/Gemini_Syndrome) and [Avatar](https://en.wikipedia.org/wiki/Avatar_(Swedish_band))
 	- weekend: epic moving party
 	- moving into temporary housing until we find a permanent place (impending zoom)
+
+
+### projects
+
+- school is keeping me pretty busy but it's fun
+- accidentally already finished the code for the team project in my Software Development Process class
+- the Machine Learning material is pretty neat but I need to get to working on the analysis for my project and fast
