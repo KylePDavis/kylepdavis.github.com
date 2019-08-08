@@ -8,4 +8,5 @@
 # build
 _site/
 Gemfile.lock
+.bundle/ruby
 
