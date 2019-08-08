@@ -3,17 +3,18 @@ layout: default
 title: Tags
 ---
 <div class="tags">
+	{% assign sorted_tags = site.tags | sort %}
 
 	<h2>Tags</h2>
 	<ul class="list-inline">
-		{% for tag in site.tags | sort %}
+		{% for tag in sorted_tags %}
 		<li><a href="/tags.html#{{ tag[0] }}-ref">#{{ tag[0] }}</a></li>
 		{% endfor %}
 	</ul>
 
-	<hr/>
+	<hr />
 
-	{% for tag in site.tags %}
+	{% for tag in sorted_tags %}
 	<h3 id="{{ tag[0] }}-ref">#{{ tag[0] }} <small>({{ tag[1].size }})</small></h3>
 	<div class="posts tag-posts">
 		<ul class="list-unstyled">
