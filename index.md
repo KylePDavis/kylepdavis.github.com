@@ -36,7 +36,7 @@ title: Home
 
 - the Internet
 - I live here (practically)
-- also, Louisville, KY
+- also, Cupertino, CA
 
 
 ### why
